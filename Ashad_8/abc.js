@@ -6,44 +6,44 @@ console.log(numbers[1]);  // 10
 // access third element
 console.log(numbers[2]);  // 40
 
-let dailyActivities = ["eat", "sleep"];
+let dailyact = ["eat", "sleep"];
 
 // add an element at the end
-dailyActivities.push("exercise");
+dailyact.push("exercise");
 
-console.log(dailyActivities);
+console.log(dailyact);
 
 // Output: [ 'eat', 'sleep', 'exercise' ]
 
 
-let dailyActivities = ["eat", "sleep"];
+let dailyActivitie = ["eat", "sleep"];
 
 // add an element at the beginning
-dailyActivities.unshift("work"); 
+dailyActivitie.unshift("work"); 
 
-console.log(dailyActivities);
+console.log(dailyActivitie);
 
 // Output: [ 'work', 'eat', 'sleep' ]
 
 
-let dailyActivities = [ "eat", "work", "sleep"];
+let dailyActivitiess = [ "eat", "work", "sleep"];
 
 // change the second element
 // use array index 1
-dailyActivities[1] = "exercise";
+dailyActivitiess[1] = "exercise";
 
-console.log(dailyActivities);
+console.log(dailyActivitiess);
 
 // Output: [ 'eat', 'exercise', 'sleep' ]
 
 
-let numbers = [1, 2, 3, 4, 5];
+let num = [1, 2, 3, 4, 5];
 
 // remove one element
 // starting from index 2
-numbers.splice(2, 1);
+num.splice(2, 1);
 
-console.log(numbers);
+console.log(num);
 
 // Output: [ 1, 2, 4, 5 ]
 
